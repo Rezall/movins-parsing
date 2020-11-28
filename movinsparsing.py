@@ -6,7 +6,6 @@
 import re
 import time
 
-start_time = time.time()
 
 #uploading edi content
 
@@ -59,4 +58,3 @@ while i < len(movins):
 for i in range(len(ctnr_names)):
    print(str(ctnr_names[i])+' '+str(ctnr_nxt_pod[i])+' '+str(ctnr_locations[i]))
 
-print("--- %s seconds to run ---" % (time.time() - start_time))
